@@ -8,9 +8,9 @@
 3. Escrever um programa para decompor um determinado número inteiro em seus fatores primos.
     [programs/03-fatores-primos.c](programs/03-fatores-primos.c)
 4. Escrever um programa para determinar o mdc e o mmc de dois inteiros com base em seus fatores primos.
- [programs/05-MDC-de-dois-numeros.c](programs/05-MDC-de-dois-numeros.c)
+ 
 5. Escrever um programa para determinar o mdc de dois números com base no Algoritmo de Euclides.
-
+[programs/05-MDC-de-dois-numeros.c](programs/05-MDC-de-dois-numeros.c)
 6. Escrever um programa para encontrar os coeficientes s e t da combinação linear mdc(a, b) = s · a + t · b.
 
 7. Escrever um programa para encontrar o inverso de a mod b.
