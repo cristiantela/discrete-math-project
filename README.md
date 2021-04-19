@@ -1,7 +1,7 @@
 ## Aula Prática
 
 1. Escrever um programa que determina se um dado número inteiro é primo ou não.  
-   [programs/01-verificar-se-e-primo.py](programs/01-verificar-se-e-primo.py)
+   [programs/01-verificar_se_é_primo.c](programs/01-verificar_se_é_primo.c)
 
 2. Escrever um programa para listar números primos sequencialmente. Você deve otimizar o programa para que ele liste o maior número possível de primos em 60 segundos.
 
