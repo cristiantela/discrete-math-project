@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int primo(int num, int i){
+	if(num%i == 0){
+		return 0;
+	}
+	else if(i > sqrt(num)){
+		printf("%i\n", num);
+		return 0;
+	}
+	primo (num, i + 2);
+}
+
+int gerador_num(int num){
+	
+	primo(num, 3);
+	gerador_num(num + 2);
+}
+
+int main(){
+	int num = 3;
+	
+	printf("2\n3\n");
+	
+	gerador_num(num);
+	
+	system("pause");
+	
+	return 0;
+}
